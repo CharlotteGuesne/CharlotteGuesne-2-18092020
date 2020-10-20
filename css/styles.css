@@ -1,0 +1,689 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: raleway;
+}
+@font-face {
+    font-family:'raleway';
+    src: url('font/Raleway/Raleway-Regular.ttf');
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 22px;
+}
+#conteneur1
+{
+    width: 100%;
+}
+#navigation img
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    max-width: 80px;
+    max-height: 80px;
+}
+#navigation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul
+{
+    list-style-type: none;
+    font-size: 12px;
+    margin-right: 20px;
+}
+nav li
+{
+    margin-right: 60px;
+}
+li
+{
+    display: inline-block;
+}
+h2
+{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+h6
+{
+    font-size: 12px;
+    margin-left: 25px;
+}
+.bouton
+{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.bouton .fas 
+{
+    display: inline-flex;
+    color : black;
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 25px;
+    border: 1px solid #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #F2F2F2;  
+}
+.bouton1
+{
+    display: inline-flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin-left: 25px;
+    border: 2px solid #F2F2F2;
+}
+.bouton2
+{
+    display: inline-flex;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: 1px solid #0065FC;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #0065FC 
+}
+input
+{
+    border: none;
+    background: no-repeat;
+    text-align: left;
+    color: white;
+}
+#conteneur2{
+    background:white;
+    width: 100%;
+}
+.filtres
+{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.filtres2
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+.filtres2 .fas
+{ 
+    position: absolute;
+    color: #0065FC;
+    width:45px;
+    height:45px;
+    margin-top: -12px;
+    margin-left: 10px;
+    background: #DEEBFF;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    border-radius:30px;
+}
+.filtres2 p
+{
+    border: 3px solid #F2F2F2;
+    border-radius: 20px 20px 20px 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    margin-top: -12px;
+    margin-left: 10px;
+}
+.info p
+{
+    font-size: 12px;
+    margin-left: 60px;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.info .fas 
+{
+    color: #0065FC;
+    height: 20px;
+    width: 80px;
+    margin-left: 25px;
+    text-align: center;
+    line-height: 25px;
+    width:30px;
+    height:30px;
+    border: 2px solid #F2F2F2;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -o-border-radius:30px;
+    border-radius:30px;
+}
+#conteneur3
+{
+    display:flex;
+}
+#gros
+{
+    background:#F2F2F2;
+    margin-right: 25px;
+    margin-left: 25px;
+    border-radius: 10px 10px 10px 10px; 
+    width:70%;
+}
+.dFlex{
+    display:flex;
+    flex-wrap:nowrap;
+}
+.elGros{
+    padding:2%;
+    margin:2%;
+    width:33.33%;
+    max-height: 180px;
+    border: 3px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+}
+.elGros img
+{
+    width:100%;
+    height: 65%;
+    border-radius: 10px 10px 0px 0px;
+}
+.elGros p
+{
+    font-size: 12px;
+    line-height: 20px;
+}
+.elGros .fas
+{
+    position: relative;
+    top: 2px;
+}
+.elGros .far
+{
+    position: relative;
+    top: 2px;
+}
+.fas{
+    color: #0065FC;
+}
+.far{
+    color: #0065FC;
+}
+
+#petit{
+    background:#F2F2F2;
+    margin-right: 25px;
+    border-radius: 10px 10px 10px 10px;
+    width:30%
+}
+.communStyle{
+    padding:2%
+}
+.rond0
+{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 5px;
+}
+.rond0 .fas
+{
+    color: black;
+}
+.petitsEncarts
+{
+    display: flex;
+    margin:2%;
+    padding:2%;
+    height: 25%;
+    width: 90%;
+    max-height: 110px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border: 3px solid white;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+}
+.petitsEncarts img
+{
+    width: 35%;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.petitsEncarts p
+{
+    margin-left: 25px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.petitsEncarts .fas
+{
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+.petitsEncarts .far
+{
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+h5
+{
+    margin-left: 25px;
+}
+#conteneur4
+{
+    display:flex;
+}
+#gros1
+{
+    background:white;
+    margin-right: 25px;
+    margin-left: 25px;
+    width:100%;
+}
+.communStyle{
+    padding:2%
+}
+.triangle
+{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;  
+}
+.triangle1 p
+{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    margin-top: -47px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 153px;
+    font-size: 12px;
+}
+.triangle1 img
+{
+    display: flex;
+    margin:5%;
+    width: 220px;
+    height: 280px;
+    border-radius: 10px;
+    background: url('vieux-port.jpg');
+    box-shadow: 6px 6px 6px #F2F2F2;   
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+}
+.triangle2 p
+{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    margin-top: -46px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 107px;
+    font-size: 12px;
+}
+.triangle2 img
+{
+    display: flex;
+    margin:5%;
+    width: 220px;
+    height: 140px;
+    border-radius: 10px;
+    background: url('fort-pomegues.jpg');
+    box-shadow: 6px 6px 6px #F2F2F2  
+}
+.triangle3 p
+{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    margin-top: -46px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 139px;
+    font-size: 12px;
+}
+.triangle3 img
+{
+    display: flex;
+    margin:5%;
+    width: 220px;
+    height: 110px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background: url('iles-frioul.jpg');
+    box-shadow: 6px 6px 6px #F2F2F2 
+}
+.triangle4 p
+{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    margin-top: -46px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 51px;
+    font-size: 12px;
+}
+.triangle4 img
+{
+    display: flex;
+    margin:5%;
+    width: 220px;
+    height: 280px;
+    border-radius: 10px;
+    background: url('parc-calanques.jpg');
+    box-shadow: 6px 6px 6px #F2F2F2  
+}
+.triangle5 p
+{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    margin-top: -46px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 67px;
+    font-size: 12px;
+}
+.triangle5 img
+{
+    display: flex;
+    margin:5%;
+    width: 220px;
+    height: 110px;
+    border-radius: 10px;
+    background: url('notre-dame-de-la-garde.jpg');
+    box-shadow: 6px 6px 6px #F2F2F2
+}
+.triangle6 p
+{
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    margin-top: -36px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 116px;
+    font-size: 12px;
+}
+.triangle6 img
+{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 220px;
+    height: 140px;
+    border-radius: 10px;
+    background: url('parc-longchamp.jpg');
+    box-shadow: 6px 6px 6px #F2F2F2
+}
+footer
+{
+    background: #F2F2F2;
+} 
+#conteneur5
+{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 2%;
+}
+.losange1
+{
+    margin-left: 25px;
+}
+.losange2
+{
+    margin-left: 200px;
+}
+.losange3
+{
+    margin-left: 250px;
+}
+#conteneur5 h4
+{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+}
+#conteneur5 p
+{
+    font-size: 12px;
+    line-height: 30px;
+}
+
+
+@media screen and (max-width:1050px){
+
+a:hover
+{
+    padding-top: 5px;
+}
+#navigation
+{
+	position: relative;
+	flex-direction: column;
+	margin-left: 55px;
+}   
+#navigation img
+{
+	margin-left: -440px;
+} 
+#conteneur1 h2
+{
+    margin-left: 25px;
+}
+#conteneur2
+{
+    width: 100%;
+}
+.filtres2
+{
+	flex-direction: column;
+	width: 50%;
+}
+.rond0 .fas
+{
+    margin-left: 180px;
+}
+#conteneur3
+{
+    flex-direction: column-reverse;
+    width: 100%;
+}
+h2
+{
+    margin-left: -25px;
+    margin-top: 15px;
+}
+.petitsEncarts img
+{
+    margin-top: -5px;
+}
+#gros
+{
+    width:100%;
+    background: white;
+}
+.dFlex
+{
+    flex-direction: column;
+    width:100%;   
+}
+.elGros img
+{
+    margin-left: -45px;
+    width: 450px;
+    height: 160px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 6px 6px 6px #F2F2F2;
+}
+.elGros p
+{
+    position: relative;
+    border: 2px solid white;
+    border-radius: 0px 0px 10px 10px;
+    background: white;
+    margin-top: -80px;
+    padding-left: 20px;
+    width: 450px;
+    margin-left: -45px;
+    padding-bottom: 32px;
+}
+.elGros .fas
+{
+    top: -20px;
+    left: -25px;
+}
+.elGros .far
+{
+    top: -20px;
+    left: -25px;
+}
+#petit
+{
+    flex-direction: column;
+    width:100%;
+}
+#petit img
+{
+    max-height: 95px;
+}
+#petit h3
+{
+    margin-left: 5px;
+}
+#conteneur4
+{
+    flex-direction: column;
+    width: 100%;
+}
+h5
+{
+    margin-left: -25px;
+    margin-bottom: 20px;
+}
+h3
+{
+    margin-left: -25px;
+} 
+.triangle
+{
+    flex-direction: column;
+    
+}
+.triangle img
+{
+    margin-left: -25px;
+    width : 450px;
+    height: 160px;
+}
+.triangle6 img
+{
+    margin-top: 25px;
+}
+.triangle1 p
+{
+    position: relative;
+    margin-left: -25px;
+    top: -10px;
+    padding-right: 300px;
+}
+.triangle2 p
+{
+    position: relative;
+    margin-left: -25px;
+    top: -10px;
+    padding-right: 300px;
+}
+.triangle3 p
+{
+    position: relative;
+    margin-left: -25px;
+    top: -10px;
+    padding-right: 300px;
+}
+.triangle4 p
+{
+    position: relative;
+    margin-left: -25px;
+    top: -10px;
+    padding-right: 280px;
+}
+.triangle5 p
+{
+    position: relative;
+    margin-left: -25px;
+    top: -10px;
+    padding-right: 280px;
+}
+.triangle6 p
+{
+    position: relative;
+    margin-left: -25px;
+    top: 0px;
+    padding-right: 280px;
+    margin-bottom: 20px;
+}
+     #conteneur5
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+    .losange2
+    {
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .losange3
+    {
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+}
+
+
