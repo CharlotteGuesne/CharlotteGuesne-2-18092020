@@ -188,7 +188,6 @@ input
 .elGros img {
     width: 100%;
     height: 65%;
-    overflow-wrap: hidden;
     border-radius: 10px 10px 0px 0px; }
 .elGros p {
     font-size: 18px;
@@ -216,9 +215,9 @@ input
   padding: 2%;
   padding: 2%; }
 .rond0 {
-  width: 100%;
-  margin-bottom: -20px;
-  margin-left: 85%;}
+  display: flex;
+  justify-content: space-between;
+}
 .rond0 .fas {
   color: black; }
 .petitsEncarts {
