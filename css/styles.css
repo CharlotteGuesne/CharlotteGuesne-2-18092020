@@ -36,19 +36,20 @@ li a:hover {
   }
 nav ul {
   list-style-type: none;
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 10px; }
 nav li {
   margin-right: 100px; }
 li {
   display: inline-block; }
 h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 5px;
   margin-bottom: 10px;
   margin-left: 25px; }
 h6 {
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: normal;
   margin-left: 25px; 
 }
 .boutonrecherche
@@ -66,7 +67,8 @@ h6 {
     color: white;
     padding: 10px 20px;
     border-radius: 0px 10px 10px 0px;
-    text-decoration: none;   
+    text-decoration: none;
+    pointer-events: none;   
 }
 .bouton1
 {
@@ -138,6 +140,7 @@ input
     -o-border-radius: 30px;
     border-radius: 30px; }
 .filtres2 p {
+    font-size: 14px;
     border: 3px solid #F2F2F2;
     border-radius: 20px 20px 20px 20px;
     padding-top: 10px;
@@ -190,7 +193,7 @@ input
     height: 65%;
     border-radius: 10px 10px 0px 0px; }
 .elGros p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px;
     padding-left: 10px;
     padding-top: 10px }
@@ -238,7 +241,7 @@ input
 .petitsEncarts p {
     padding-top: 10px;
     margin-left: 25px;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 20px; }
 .petitsEncarts .fas {
     position: relative;
@@ -248,8 +251,11 @@ input
     position: relative;
     left: 25px;
     top: 10px; }
-h5 {
-  margin-left: 25px; }
+h5 
+{
+  font-size: 12px;
+  margin-left: 25px; 
+}
 #conteneur4 {
   display: flex;
 }
@@ -274,7 +280,9 @@ h5 {
           position:relative;
           border-radius:15px;
         }
-.conteneur p{
+.conteneur p
+{
+            font-size: 14px;
             background:white;
             padding:3%;
             position:absolute;
@@ -293,7 +301,9 @@ h5 {
            position:relative;
            border-radius:15px;
         }
-.conteneur1 p{
+.conteneur1 p
+{
+            font-size: 14px;
             background:white;
             padding:3%;
             position:absolute;
@@ -312,7 +322,9 @@ h5 {
            position:relative;
            border-radius:15px;
         }
-.conteneur2 p{
+.conteneur2 p
+{
+  font-size: 14px;
             background:white;
             padding:3%;
             position:absolute;
@@ -331,7 +343,9 @@ h5 {
            position:relative;
            border-radius:15px;
         }
-.conteneur3 p{
+.conteneur3 p
+{
+  font-size: 14px;
             background:white;
             padding:3%;
             position:absolute;
@@ -350,7 +364,9 @@ h5 {
            position:relative;
            border-radius:15px;
         }
-.conteneur4 p{
+.conteneur4 p
+{
+  font-size: 14px;
             background:white;
             padding:3%;
             position:absolute;
@@ -413,7 +429,7 @@ footer {
   justify-content: space-between;
   padding: 2%; }
 #conteneur5 h4 {
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 30px; }
 #conteneur5 p {
