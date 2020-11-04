@@ -78,12 +78,11 @@ h6
   padding: 10px 20px;
   border-radius: 0px 10px 10px 0px;
   text-decoration: none;
-  pointer-events: none;   
+  cursor:pointer; 
 }
-.bouton1
+.boutonrecherche a:hover
 {
-  padding: 5px;
-  padding-right: 10px;
+  color:white;   
 }
 #logo
 {
@@ -271,6 +270,8 @@ input
 .rond0 .fas 
 {
   color: black; 
+  margin-right: 60px;
+  margin-top: 10px;
 }
 .petitsEncarts 
 {
@@ -312,7 +313,7 @@ input
 }
 h5 
 {
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 25px; 
 }
 #conteneur4 
