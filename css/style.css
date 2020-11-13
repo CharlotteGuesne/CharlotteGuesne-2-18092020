@@ -266,22 +266,12 @@ h5 {
   border-radius: 15px; }
 
 .bas {
-  width: 95%;
   height: 240px;
-  margin-bottom: 5px;
-  box-shadow: 6px 6px 6px grey;
-  overflow: hidden;
-  position: relative;
-  border-radius: 15px; }
+  margin-bottom: 5px; }
 
 .haut {
-  width: 95%;
   height: 200px;
-  margin-top: 5px;
-  box-shadow: 6px 6px 6px grey;
-  overflow: hidden;
-  position: relative;
-  border-radius: 15px; }
+  margin-top: 5px; }
 
 footer {
   background: #F2F2F2; }
