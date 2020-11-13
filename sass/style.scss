@@ -179,7 +179,7 @@ input {
 	height: 250px;
 	img {
 		width: 100%;
-		height: 65%;
+		overflow: hidden;
 		border-radius: 10px 10px 0px 0px;
 	}
 	p {
@@ -231,6 +231,7 @@ input {
 	background: white;
 	img {
 		width: 35%;
+		overflow: hidden;
 		border-radius: 10px 0px 0px 10px;
 	}
 	p {
