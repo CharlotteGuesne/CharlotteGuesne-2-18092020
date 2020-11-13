@@ -146,8 +146,6 @@ input {
 	}
 	.fas {
 		color: #0065FC;
-		height: 20px;
-		width: 80px;
 		margin-left: 25px;
 		text-align: center;
 		line-height: 25px;
@@ -173,11 +171,9 @@ input {
 .hebergements {
 	display: flex;
 	flex-direction: column;
-	align-items: left;
-	padding: 2px;
+	padding: 4px;
 	margin: 2%;
 	width: 33.33%;
-	border: 3px solid white;
 	border-radius: 10px;
 	background: white;
 	height: 250px;
@@ -191,21 +187,21 @@ input {
 		line-height: 20px;
 		padding: 10px 0px 0px 10px;
 	}
-	.fas {
+	.fas{
 		position: relative;
 		top: 2px;
 		left: 10px;
 	}
-	.far {
+	.far{
 		position: relative;
 		top: 2px;
 		left: 10px;
 	}
 }
-.fas {
+.fas{
 	color: #0065FC;
 }
-.far {
+.far{
 	color: #0065FC;
 }
 #populaire {
@@ -227,11 +223,10 @@ input {
 }
 .bestseller {
 	display: flex;
-	padding: 2px;
-	height: 25%;
+	padding: 4px;
 	width: 90%;
+	height:25%;
 	margin: 30px 0 0 10px;
-	border: 3px solid white;
 	border-radius: 10px;
 	background: white;
 	img {
@@ -244,17 +239,17 @@ input {
 		font-size: 14px;
 		line-height: 20px;
 	}
-	.fas {
+	.fas{
 		position: relative;
 		left: 25px;
 		top: 10px;
 	}
-	.far {
+	.far{
 		position: relative;
 		left: 25px;
 		top: 10px;
 	}
-}
+}	
 h5 {
 	font-size: 14px;
 	margin-left: 25px;
@@ -349,9 +344,6 @@ footer {
 }
 @media screen and (max-width: 1250px) {
 	#marseille {
-		margin-left: 30px;
-		background: #F2F2F2;
-		width: 50%;
 		width: 100%;
 		margin-left: -5px;
 		background: white;
@@ -360,7 +352,6 @@ footer {
 		}
 	}
 	#populaire {
-		width: 50%;
 		width: 100%;
 		border-radius: 0px;
 		padding-bottom: 30px;
@@ -370,16 +361,12 @@ footer {
 	}
 	.bestseller {
 		max-height: 120px;
-		max-height: 120px;
 		img {
-			max-height: 110px;
-			max-width: 150px;
 			max-height: 110px;
 			max-width: 150px;
 		}
 	}
 	.dFlex {
-		flex-direction: column;
 		flex-direction: column;
 	}
 	.hebergements {
@@ -387,27 +374,14 @@ footer {
 		max-height: 210px;
 		margin-bottom: 10px;
 		box-shadow: 6px 6px 6px #F2F2F2;
-		width: 95%;
-		max-height: 210px;
 		max-width: 550px;
-		margin-bottom: 10px;
-		box-shadow: 6px 6px 6px #F2F2F2;
 	}
-	@media {
-		screen {
-			and {
-				(max-width: {
-					820px) {
-						h2 { font-size: 16px;
-					}
-					750px) {
-						#conteneur1 { flex-wrap: wrap;
-					}
-				}
-			}
-		}
+}
+@media screen and (max-width:820px) {
+	h2 { 
+		font-size: 16px;
 	}
-	#conteneur1 {
+	#conteneur1 { 
 		flex-wrap: wrap;
 	}
 	.filtres2 {
@@ -420,9 +394,9 @@ footer {
 	}
 	#conteneur3 {
 		flex-direction: column-reverse;
-		h5 {
-			margin-left: 18px;
-		}
+	h5 {
+		margin-left: 18px;
+	}
 	}
 	#activ {
 		h3 {
@@ -449,8 +423,8 @@ footer {
 	#conteneur5 {
 		flex-direction: column;
 		width: 100%;
-		padding-top: 20px;
-		padding-bottom: 20px;
+		padding: 20px 0 20px 0;
+		margin-left:25px;
 	}
 	#flex {
 		padding-bottom: 80px;
